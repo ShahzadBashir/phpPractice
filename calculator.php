@@ -3,7 +3,7 @@
 /* Calculator Using Else-If*/
 $number1 = 6;
 $number2 = 8;
-$oper = $_POST['oper'];
+$oper = "ADD";
 if(!$number1){
 echo("You must enter number 1");
 exit;
