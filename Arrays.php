@@ -111,4 +111,21 @@ for ($x = 0; $x < sizeof($AssociativeArrays2); $x++)
 }
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/*Multidimensional array − An array containing one or more arrays and values are accessed using multiple indices*/
+
+echo "</br>"."Multidimensional array − An array containing one or more arrays and values are accessed using multiple indices"."</br></br>";
+
+$studentDetails = array("Shahzad" => array ("batch" => 2019,"Field" => "Technical"),    
+                  "Usama" => array ("batch" => 2020,"Field" => "Graphic Designing"),    
+                   "Uzma" => array ("batch" => 2018,"Field" => "Content Writing"));
+
+echo " Displaying Multi-Dimensional Array Values ";
+
+echo "Details Of Erozgar Trainee </br></br> Shahzad ";
+echo "</br>"."Year-".$studentDetails['Shahzad']['batch'] . "<br />";
+echo "Field-".$studentDetails['Shahzad']['Field'] . "<br />"; 
+
 ?>
